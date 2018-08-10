@@ -1,0 +1,14 @@
+LOCAL=/usr/local
+LIB=$LOCAL/lib
+LIB64=$LOCAL/lib64
+
+export JAVA_HOME=$LIB64/jdk
+export M2_HOME=$LIB/apache-maven
+export PATH=$JAVA_HOME/bin:$M2_HOME/bin:$PATH
+
+export EDITOR=/usr/bin/vim
+export VIEWER=/usr/bin/view
+
+alias cdl="cd /usr/local"
+alias cde="cd /etc"
+alias cdd="cd ~/Downloads"
